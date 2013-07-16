@@ -3,12 +3,90 @@
 	<head>
 		<meta charset="utf-8">
 		<title>My First Bitstarter</title>
-		<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+        
+        <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined-no-icons.min.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0,2/css/font-aewsome.css">
+        <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+        <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js">
+        <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js">
 		<style type="text/css">
-        body {
-            padding-top: 20px;
-            padding-bottom: 40px;
+        /* LargeDesktop */
+        @media (min-width: 980px) {   
+            body {
+                padding-top: 60px;
+            }
+            .linediv-l {
+                border-right: 1px white solid;
+            }
+            .linediv-r {
+                border-left : 1px white solid;
+            }
         }
+
+        /*Landscape phones and smaller  */
+        @media (max-width: 480px){
+            .copy {
+                padding: 2.5% 10%;
+            }
+            .linediv-l {
+                border-bottom: 1px white solid;
+            }
+            ,linediv-r {
+                border-top : 1px white solid;
+            }
+        }
+
+        /* All form factors */
+
+        /*Main body and headings */
+        body {
+            font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        }
+        .heading, .subheading {
+            font-family: 'Ubuntu",Helverica, Arial, sans-serif;
+            text-align: center;
+        }
+        p.lead{
+            padding-top :1.5%;
+            font-size: 24px;
+            line-height : 24px;
+        }
+        p{
+            font-size : 18px;
+            line-height: 24px;
+        }
+
+        /* Video pitch and Action */
+        .pitch {
+            padding: 2.5% 0%;
+        }
+        .actions {
+            background-color: #242424;
+            padding 3% 0%;
+        }
+        .video, .thermometer, .order, .social, .statistics{
+            text-align: center;
+        }
+        .statistics h3, .statistics p {
+            color : white;
+        }
+
+        /* Marketing Copy and Footer */
+        .copy {
+            padding-top : 2.5%;
+            padding-bottom :2.5%;
+            text-align: justify;
+        }
+        .asset{
+            padding: 2.5% 0%;
+        }
+        .footer p {
+            font-size:11px;
+        }
+        .footer a {
+            color:#ccccff
+        }
+
         .container{
             width: 960px;        
         }
@@ -33,7 +111,7 @@
         div.row {
             border: 1px solid;
         }
-        </style>
+    </style>
     </head>
     <body>
         <div class="container">
